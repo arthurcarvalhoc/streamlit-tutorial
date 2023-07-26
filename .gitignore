@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Lock files 
+*.lock
+
 # C extensions
 *.so
 

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streamlit-tutorial"
+version = "0.1.0"
+description = "Simple Streamlit Tutorial"
+authors = ["Arthur Carvalho <arthurcarvalhoc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.25.0"
+folium = "^0.14.0"
+geopandas = "^0.13.2"
+streamlit-folium = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
